@@ -21,7 +21,7 @@ int pop(int st[],int*top)
 	else
 	{
 		del_item=st[*top];
-		*top--;
+		(*top)--;
 		return del_item;
 	}
 }
